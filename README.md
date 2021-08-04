@@ -41,7 +41,6 @@
 <img src = "https://user-images.githubusercontent.com/84768543/128154938-4033bdec-7518-42e3-8cc8-084a1f48f50f.jpg" width="700px">   
 
 **카카오맵 API를 연동하여 페이지를 만들었으며 검색창에 원하는 검색어를 입력할 수 있습니다.**   
-**직접 아이스크림 모양 마커를 만들었습니다.**
 
 <img src = "https://user-images.githubusercontent.com/84768543/128154941-c07575b3-2c35-46d9-881e-968712451dce.jpg" width="500px">   
 
