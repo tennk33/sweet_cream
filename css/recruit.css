@@ -1,0 +1,142 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+
+/* 헤더부분 */
+.recruit_wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+.recruit_wrap > h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 70px;
+    font-weight: bold;
+    letter-spacing: 2rem;
+    font-family: 'Lobster', cursive;
+
+    border-bottom: 2px solid black;
+    margin-bottom: 40px;
+}
+.article_img {
+    position: relative;
+}
+/* 이미지 */
+.article_img > img{
+    width: 1200px;
+    height: 450px;
+}
+/* 이미지 안에 글씨 */
+.article_img > h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 50px;
+    padding: 20px 50px;
+    transform: skewX(-15deg);
+    font-family: 'Damion', cursive;
+    letter-spacing: 0.3rem;
+}
+/* 설명 부분 */
+.recruit_article h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px;
+}
+.recruit_article ul {
+    padding: 0px 30px;
+    margin-bottom: 80px;
+}
+.recruit_article ul > li {
+    font-size: 17px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    padding: 5px;
+}
+/* 채용공고 부분 */
+.recruit_section {
+    width: 1200px;
+    border-top: 2px solid black;
+}
+.recruit_section > h1 {
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    
+    font-weight: bold;
+}
+.recruit_section  button {
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Poiret One', cursive;
+
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: #a31616;
+    border: none;
+    cursor: pointer;
+    color: white;
+
+    margin-left: 40%
+    
+}
+
+/* 미디어쿼리 */
+/* 태블릿 */
+@media all and (max-width:1023px) {
+    /* 헤더부분 */
+    .recruit_wrap {
+        width: 100%;
+    }
+    .article_img {
+        position: relative;
+    }
+    /* 이미지 */
+    .article_img > img{
+        width: 100%;
+        height: 450px;
+    }
+    /* 이미지 안에 글씨 */
+    .article_img > h3 {
+        font-size: 40px;
+        padding: 30px;
+        background: none;
+        color: white;
+        text-shadow: 0px 0px 20px black;
+    }
+    /* 채용공고 부분 */
+    .recruit_section {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .button_wrap {
+        width: 250px;
+        margin: 0 auto;
+    }
+    .recruit_section  button {
+        margin-left: 0;
+    }
+}
+
+/* 모바일 */
+@media all and (max-width:767px) { 
+    /* 헤더부분 */
+    .recruit_wrap h1 {
+        font-size: 3vmax;
+        padding: 30px;
+    }
+    /* 이미지 크기 */
+    .article_img > img{
+        width: 100%;
+        height: 300px;
+    }
+    /* 이미지 안에 글씨 */
+    .article_img > h3 {
+        font-size: 4vmax;
+        margin-top: -50px;
+    }
+}

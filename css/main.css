@@ -1,0 +1,671 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+/* 슬라이드 부분 */
+.swiper-container {
+    width: 1200px;
+}
+.swiper-slide > img {
+    width: 1200px;
+    height: 720px;
+}
+/* 이미지 안에 글씨 부분 */
+.slide_text h1 {
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    color: #ffffff;
+    font-size: 100px;
+    font-family: 'Shrikhand', cursive;
+    letter-spacing: 0.3rem;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.slide_text1 h1 {
+    text-shadow: #2576d3 1px 1px,#2576d3 0px 0px,#2576d3 1px 1px,#2576d3 2px 2px,#2576d3 3px 3px,#2576d3 4px 4px,#2576d3 5px 5px,#2576d3 6px 6px,#2576d3 7px 7px,#2576d3 8px 8px,#2576d3 9px 9px,#2576d3 10px 10px;
+}
+.slide_text1 p {
+    background-color: rgba(112, 179, 233, 0.363);
+    text-shadow: #2576d3 1px 1px,#2576d3 0px 0px,#2576d3 1px 1px,#2576d3 2px 2px,#2576d3 3px 3px;
+}
+.slide_text2 h1 {
+    text-shadow: #504544 1px 1px,#504544 0px 0px,#504544 1px 1px,#504544 2px 2px,#504544 3px 3px,#504544 4px 4px,#504544 5px 5px,#504544 6px 6px,#504544 7px 7px,#504544 8px 8px,#504544 9px 9px,#504544 10px 10px;
+}
+.slide_text2 p {
+    background-color: rgba(95, 70, 55, 0.363);
+    text-shadow: #504544 1px 1px,#504544 0px 0px,#504544 1px 1px,#504544 2px 2px,#504544 3px 3px;
+}
+.slide_text3 h1 {
+    text-shadow: #5e3291 1px 1px,#5e3291 0px 0px,#5e3291 1px 1px,#5e3291 2px 2px,#5e3291 3px 3px,#5e3291 4px 4px,#5e3291 5px 5px,#5e3291 6px 6px,#5e3291 7px 7px,#5e3291 8px 8px,#5e3291 9px 9px,#5e3291 10px 10px;
+}
+.slide_text3 p {
+    background-color: rgba(152, 60, 189, 0.363);
+    text-shadow: #5e3291 1px 1px,#5e3291 0px 0px,#5e3291 1px 1px,#5e3291 2px 2px,#5e3291 3px 3px;
+}
+.slide_text4 h1 {
+    text-shadow: #b82e2e 1px 1px,#b82e2e 0px 0px,#b82e2e 1px 1px,#b82e2e 2px 2px,#b82e2e 3px 3px,#b82e2e 4px 4px,#b82e2e 5px 5px,#b82e2e 6px 6px,#b82e2e 7px 7px,#b82e2e 8px 8px,#b82e2e 9px 9px,#b82e2e 10px 10px;
+}
+.slide_text4 p {
+    background-color: rgba(233, 140, 171, 0.363);
+    text-shadow: #b82e2e 1px 1px,#b82e2e 0px 0px,#b82e2e 1px 1px,#b82e2e 2px 2px,#b82e2e 3px 3px;
+}
+.slide_text p {
+    position: absolute;
+    bottom: 50px;
+    right: 40px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Damion', cursive;
+    letter-spacing: 0.3rem;
+    box-sizing: border-box;
+    border: 2px  white;
+    border-style: dashed;
+    padding: 20px;
+    width: 800px;
+}
+
+/* 이벤트 목록 */
+.event {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.event > h1 {
+    text-align: center;
+    font-size: 26px;
+    color: black;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    padding: 60px;
+}
+/* 이벤트 슬라이더 부분 */
+.swiper2 {
+    width: 1000px;
+}
+.swiper2_wrapper {
+    margin: 0 auto;
+}
+.swiper2_slide > img {
+    width: 300px;
+    height: 300px;
+}
+.swiper-pagination {
+    position: relative !important;
+    padding: 40px;
+    padding-left: 0;
+}
+.swiper-pagination-bullet {
+    background: #ff2020 !important;
+    width: 15px !important;
+    height: 15px !important;
+    margin: 0 10px !important;
+}
+.swiper-pagination-bullet-active {
+    background: #cc1616 !important;
+}
+/* 메뉴 부분 */
+.menu {
+    width: 100%;
+}
+.menu_wrap {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.menu_wrap > h1 {
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    text-shadow:1px 1px 20px #e71a1a;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+    padding: 60px;
+}
+.menu_link_wrap {
+    overflow: hidden;
+    height: 800px;
+}
+.menu_link_wrap > div > h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    font-family: 'Lobster', cursive;
+}
+/* gelato */
+.menu_gelato {
+    float: left;
+    width: 395px;
+    height: 302px;
+    box-sizing: border-box;
+    margin-left: 300px;
+    background-color: rgb(253, 253, 253);
+
+    border: 3px dotted red;
+    box-shadow: 0px 0px 10px rgb(243, 31, 31) inset,
+    3px 5px 20px red;
+
+    position: relative;
+
+}
+.menu_gelato > h1 {
+    color: #ca1010;
+    text-shadow: 2px 2px 1px white,
+    5px 5px 10px #e79090;
+}
+.menu_gelato > img {
+    width: 300px;
+    position:absolute;
+    left: 50px;
+    bottom: 10px;
+}
+/* smoothie */
+.menu_smoothie {
+    float: right;
+    width: 276px;
+    height: 472px;
+    margin-right: 200px;
+    box-sizing: border-box;
+    background-color: white;
+
+    border: 3px dotted red;
+    box-shadow: 0px 0px 10px rgb(243, 31, 31) inset,
+    3px 5px 20px red;
+
+    position: relative;
+}
+.menu_smoothie > h1 {
+    color: #ffd000;
+    text-shadow: 2px 2px 1px white,
+    5px 5px 10px #e2bd6d;
+}
+.menu_smoothie > img {
+    width: 370px;
+    position: absolute;
+    bottom: 10px;
+    left: -45px;
+}
+/* icelolly */
+.menu_icelolly {
+    float: left;
+    width: 230px;
+    height: 366px;
+    margin-left: 106px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    background-color: white;
+
+    border: 3px dotted red;
+    box-shadow: 0px 0px 10px rgb(243, 31, 31) inset,
+    3px 5px 20px red;
+
+    position: relative;
+}
+.menu_icelolly > h1 {
+    color: #ff6191;
+    text-shadow: 2px 2px 1px white,
+    5px 5px 10px #e790aa;
+}
+.menu_icelolly > img {
+    width: 300px;
+    position: absolute;
+    bottom: -10px;
+    left: -40px;
+}
+/* coffee */
+.menu_coffee {
+    float: left;
+    width: 329px;
+    height: 292px;
+    margin-top: 30px;
+    margin-left: 30px;
+    box-sizing: border-box;
+    background-color: white;
+
+    border: 3px dotted red;
+    box-shadow: 0px 0px 10px rgb(243, 31, 31) inset,
+    3px 5px 20px red;
+
+    position: relative;
+}
+.menu_coffee > h1 {
+    color: #6d3e1f;
+    text-shadow: 2px 2px 1px white,
+    5px 5px 10px #723d2d;
+}
+.menu_coffee > img {
+    width: 340px;
+    position: absolute;
+    left: -10px;
+    bottom: 0;
+}
+/* dessert */
+.menu_dessert {
+    float: right;
+    width: 276px;
+    height: 200px;
+    margin-top: 30px;
+    margin-right: 200px;
+    box-sizing: border-box;
+    background-color: white;
+
+    border: 3px dotted red;
+    box-shadow: 0px 0px 10px rgb(243, 31, 31) inset,
+    3px 5px 20px red;
+
+    position: relative;
+}
+.menu_dessert > h1 {
+    color: #eb5045;
+    text-shadow: 2px 2px 1px white,
+    5px 5px 10px #ffbfbf;
+}
+.menu_dessert > img {
+    width: 160px;
+    position: absolute;
+    left: 55px;
+    bottom: 8px;
+}
+/* 섹션 */
+.section_wrap {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 30px;
+}
+/* 스토어 */
+.store {
+    float: left;
+    width: 600px;
+}
+.store > h1 {
+    font-size: 26px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+    padding: 60px;
+}
+.store_wrap {
+    background-color: #a72017;
+}
+.store_wrap > h2 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-weight:bold;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+}
+.store_wrap > h3 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffae00;
+}
+.store_wrap > img {
+    display: block;
+    width: 100px;
+    margin-left: 37%;
+    padding: 40px 30px;
+}
+/* 기프트카드 */
+.gift {
+    width: 600px;
+    float: left;
+}
+.gift > h1 {
+    font-size: 26px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+    padding: 60px;
+}
+.gift_wrap {
+    background-color: #382d22;
+}
+.gift_wrap > h2 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+
+}
+.gift_wrap > h3 {
+    font-size: 20px;
+    text-align: center;
+    color: #f11e1e;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.gift_wrap > img {
+    width: 100px;
+    display: block;
+    padding: 40px 30px;
+    margin-left: 37%;
+}
+/* sns */
+.sns {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.sns > h1 {
+    font-size: 26px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+    padding: 60px;
+    padding-bottom: 30px;
+}
+.sns_icons {
+    text-align: center;
+}
+.sns_icons a {
+    font-size: 0;
+}
+.sns_icons i {
+    font-size: 30px;
+    padding: 20px;
+    border: 1px solid #db9f9f;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin: 10px;
+    color: #c01414;
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+.sns_icons i:hover {
+    background-color: #c01414;
+    color: white;
+}
+/* 사진모음 */
+.pictures {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.pictures h1 {
+    font-size: 26px;
+    color: #929292;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+    padding: 60px;
+    padding-bottom: 20px;
+    letter-spacing: 2rem;
+}
+.pictures img {
+    width: 235px;
+    height: 190px;
+    padding: 1px 2px;
+}
+.pictures img:hover {
+    transition: 0.5s;
+    filter: invert(11%) sepia(79%) saturate(5476%) hue-rotate(357deg) brightness(95%) contrast(115%);
+}
+
+
+/* 미디어쿼리 */
+/* 테블릿 (해상도 768px ~ 1023px)*/
+@media all and (max-width:1023px) {
+    /* 이미지 슬라이더 */
+    .swiper-container {
+        width: 100%;
+    }
+    .swiper-slide > img {
+        width: 100%;
+        height: 720px;
+    }
+    /* 이미지 안에 글씨 부분 */
+    .slide_text h1 {
+        font-size: 70px;
+        padding: 30px;
+    }
+    .slide_text p {
+        width: 600px;
+    }
+    /* 이벤트부분 */
+    .event {
+        width: 100%;
+        margin-left: -30px;
+    }
+    .event h1 {
+        margin-top: 50px;
+        padding-bottom: -20px;
+        margin-top: -10px;
+    }
+    /* 이벤트 슬라이더 부분 */
+    .swiper2 {
+        width: 100%;
+        margin-top: -10px;
+    }
+    .swiper2_wrapper {
+        margin: 0 auto;
+    }
+    .swiper2_slide > img {
+        height: 300px;
+    }
+    /* 메뉴 부분 */
+    .menu {
+        width: 100vw;
+    }
+    .menu_wrap {
+        width: 100%;
+        padding: 0;
+    }
+    .menu_link_wrap {
+        height: 100%;
+    }
+    /* gelato */
+    .menu_gelato {
+        margin-bottom: 20px;
+    }
+    /* smoothie */
+    .menu_smoothie {
+        float: left;
+        margin-right: 0px;
+        margin-left: 15%;
+    }
+    /* icelolly */
+    .menu_icelolly {
+        width: 300px;
+        height: 472px;
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+    .menu_icelolly > img {
+        width: 380px;
+    }
+    /* coffee */
+    .menu_coffee {
+        margin-left: 10%;
+        margin-bottom: 50px;
+        height: 250px;
+    }
+    .menu_coffee > img {
+        width: 340px;
+        position: absolute;
+        left: -10px;
+        bottom: 0;
+    }
+    /* dessert */
+    .menu_dessert {
+        float: left;
+        width: 300px;
+        height: 250px;
+        margin-right: 0px;
+        margin-left: 30px;
+    }
+    .menu_dessert > img {
+        width: 200px;
+        position: absolute;
+        left: 55px;
+        bottom: 15px;
+    }
+    /* 섹션 */
+    .section_wrap {
+        width: 100%;
+        padding: 0px;
+    }
+    /* 스토어 */
+    .store {
+        width: 50%;
+    }
+    .store_wrap > img {
+        padding: 40px 10px;
+    }
+    /* 기프트카드 */
+    .gift {
+        width: 50%;
+    }
+    .gift_wrap > img {
+        padding: 40px 10px;
+    }
+    /* sns */
+    .sns {
+        width: 100%;
+        margin: 0 auto;
+    }
+    /* 사진모음 */
+    .pictures {
+        width: 100%;
+        padding: 10px;
+    }
+    .pictures img {
+        width: 180px;
+        height: 180px;
+        padding: 1px 2px;
+    }
+}
+
+
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/
+@media all and (max-width:767px) {
+    .swiper-slide > img {
+        width: 100%;
+        height: 500px;
+    } 
+    /* 이미지 안에 글씨 부분 */
+    .slide_text h1 {
+        font-size: 7vmax;
+        padding: 30px;
+        margin-left: -10%;
+    }
+    .slide_text p {
+        width: 400px;
+        font-size: 26px;
+        display: none;
+    }
+    /* 이벤트 부분 */
+    .event h1{
+        padding-bottom: 0;
+        padding: 20px;
+    }
+    .swiper2_slide > img {
+        width: 100%;
+        height: 100%;
+    }
+    /* 메뉴부분 */
+    .menu {
+        width: 100vw;
+    }
+    .menu_wrap {
+        width: 100%;
+        /* padding: 30px; */
+    }
+    .menu_link_wrap {
+        overflow: hidden;
+        height: 100%;
+    }
+    /* gelato */
+    .menu_gelato {
+        float: none;
+        margin: 0 10%;
+    }
+    /* smoothie */
+    .menu_smoothie {
+        float: none;
+        margin-right: 0px;
+        margin: 10% 35%;
+    }
+    /* icelolly */
+    .menu_icelolly {
+        float: none;
+        width: 230px;
+        height: 366px;
+        margin: 0 20%;
+    }
+    .menu_icelolly > img {
+        width: 300px;
+        position: absolute;
+        bottom: -10px;
+        left: -40px;
+    }
+    /* coffee */
+    .menu_coffee {
+        float: none;
+        margin-top: 10%;
+        margin-left: 25%;
+    }
+    /* dessert */
+    .menu_dessert {
+        float: none;
+        width: 276px;
+        height: 200px;
+        margin-top: 30px;
+        margin: 10% 20%;
+    }
+    .menu_dessert > img {
+        width: 160px;
+        position: absolute;
+        left: 55px;
+        bottom: 8px;
+    }
+    /* 스토어, 기프트카드 */
+    .store {
+        width: 100%;
+    }
+    .store_wrap > img {
+        width: 20%;
+        padding: 40px 3%;
+    }
+    /* 기프트카드 */
+    .gift {
+        width: 100%;
+    }
+    .gift_wrap > img {
+        width: 20%;
+        padding: 40px 3%;
+    }
+    /* sns */
+    .sns {
+        padding: 0px;
+    }
+    .sns_icons i {
+        font-size: 30px;
+        padding: 3%;
+        margin: 0;
+    }
+    /* 사진모음 */
+    .pictures {
+        display: none;
+    }
+    
+}

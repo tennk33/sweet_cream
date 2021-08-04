@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+/* 맵관련 css들 */
+/* 주소 부분 */
+.map_wrap, .map_wrap * {
+    margin:0;
+    padding:0;
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 15px;
+}
+/* 맵크기 */
+.map_wrap {
+    position:relative;
+    width: 100%;
+    height: 100%;
+}
+/* 결과창 */
+#menu_wrap {
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width:350px;
+    padding:15px;
+    overflow-y:auto;
+    background:#ffffff;
+    z-index: 1;
+    font-size:12px;
+}
+.bg_white {
+    background: white;
+}
+#menu_wrap hr {
+    display: block; 
+    border: 0; 
+    border-top: 4px solid #b31919;
+    margin:3px 0;
+}
+/* 검색 */
+#menu_wrap .option {
+    text-align: center;
+    padding: 10px;
+}
+#menu_wrap .option p {
+    margin:10px 0;
+} 
+/* 검색버튼 */
+#menu_wrap .option button {
+    display: block;
+    margin: 20px;
+    margin-left: 60px;
+    width: 200px;
+    height: 45px;
+    cursor: pointer;
+    background: #b31919;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+}
+#placesList li {
+    list-style: none;
+}
+#placesList .item {
+    position:relative;
+    border-bottom: 3px dotted #f3cdcd;
+    overflow: hidden;
+    cursor: pointer;
+    min-height: 65px;
+}
+/* 주소 */
+#placesList .item span {
+    display: block;
+    margin-top:4px;
+    color: #796a5e;
+    font-weight: bold;
+}
+/* 주소 제목부분 */
+#placesList .item h5, #placesList .item .info {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 20px;
+    font-weight: bold;
+    color: #5e3312;
+}
+/* 주소 칸 가운데로 정렬하는거 */
+#placesList .item .info{
+    padding:10px 0 10px 40px;
+}
+/* 지번주소 가려버리기 */
+#placesList .info .jibun {
+    display: none;
+}
+/* 전화번호 부분 */
+#placesList .info .tel {
+    color: #f09712;
+}
+/* 밑에 페이지번호 */
+#pagination { 
+    margin:10px auto;
+    text-align: center;
+}
+#pagination a {
+    display:inline-block;
+    margin-right:10px;
+    font-size: 20px;
+    color: #eeaeae;
+}
+#pagination .on {
+    font-weight: bold; 
+    cursor: default;
+    color:#d62222;
+}
+
+
+/* 아티클부분 */
+.artice {
+    width: 1200px;
+    margin: 0 auto;
+}
+.article > h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    letter-spacing: 1rem;
+    padding: 60px;
+    margin-top: 30px;
+}
+/* 사진들 부분 */
+.article_wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+.article_wrap img {
+    width: 1000px;
+    height: 600px;
+}
+
+/* 미디어쿼리 */
+/* 태블릿 */
+@media all and (max-width:1023px) {
+    /* 결과창 */
+    #menu_wrap {
+        width: 250px;
+        padding: 10px;
+    }
+    /* 검색 */
+    #menu_wrap .option {
+        padding: 10px;
+    }
+    /* 검색버튼 */
+    #menu_wrap .option button {
+        margin-left: 5px;
+    }
+    /* 주소 제목부분 */
+    #placesList .item h5, #placesList .item .info {
+        font-size: 18px;
+    }
+    /* 주소 칸 가운데로 정렬하는거 */
+    #placesList .item .info{
+        padding: 10px;
+    }
+    /* 아티클부분 */
+    .artice {
+        width: 100%;
+    }
+    /* 사진 부분 */
+    .article_wrap {
+        width: 100%;
+    }
+    .article_wrap img {
+        width: 100%;
+    }
+}
+
+
+/* 모바일 */
+@media all and (max-width:767px) {      
+    /* 결과창 */
+    #menu_wrap {
+        position:absolute;
+        top:0;
+        left:0;
+        bottom:0;
+        width:100%;
+        height: 300px;
+        padding: 0px;
+        overflow-y:auto;
+        /* 스크롤 */
+        font-size:12px;
+    }
+    /* 검색 */
+    #menu_wrap .option {
+        text-align: left;
+        padding: 10px;
+        padding-top: 40px;
+    }
+    #menu_wrap .option p {
+        margin:10px 0;
+    } 
+    /* 검색버튼 */
+    #menu_wrap .option button {
+        margin: 20px;
+        margin-left: 220px;
+        margin-top: -35px;
+        width: 120px;
+        height: 40px;
+        font-size: 20px;
+    }
+    #placesList .item {
+        position:relative;
+        border-bottom: 3px dotted #f3cdcd;
+        overflow: hidden;
+        min-height: 65px;
+    }
+    /* 주소 제목부분 */
+    #placesList .item h5, #placesList .item .info {
+        font-size: 18px;
+    }
+    /* 주소 칸 가운데로 정렬하는거 */
+    #placesList .item .info{
+        padding: 10px;
+    }
+
+    /* 사진 */
+    .article_wrap img {
+        width: 100%;
+        height: 100%;
+    }
+
+}    

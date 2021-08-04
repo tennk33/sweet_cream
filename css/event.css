@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+.event_wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+.event_wrap > h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 70px;
+    font-weight: bold;
+    letter-spacing: 2rem;
+    font-family: 'Lobster', cursive;
+}
+/* 버튼 부분 */
+.event_sort {
+    height: 70px;
+    border-top: 3px solid #a31616;
+    padding: 20px;
+}
+.event_button {
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.radio_box input[type="radio"]{
+    display:none;
+}
+.radio_box input[type="radio"] + span{
+    display:inline-block;
+    background: white;
+    border:1px solid #f5d2d2;
+    border-radius: 40px;
+    width: 200px;
+    text-align:center;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    cursor:pointer;
+    margin: 0 30px;
+    color: #a31616;
+}
+.radio_box input[type="radio"]:checked + span{
+    border:1px solid #a31616;
+    background:#a31616;
+    color: white;
+}
+.radio_box i {
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+/* 이벤트 이미지들 */
+.event_list {
+    width: 1050px;
+    margin: 0 auto;
+}
+.event_list > img {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+
+/* 미디어쿼리 */
+/* 태블릿 */
+@media all and (max-width:1023px) {
+    /* 헤더부분 */
+    .event_wrap {
+        width: 100%;
+    }
+    /* 버튼 부분 */
+    .event_sort {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .event_button {
+        width: 700px;
+        margin: 0 auto;
+        padding: 0 0%;
+    }
+    .radio_box input[type="radio"] + span{
+        width: 190px;
+        margin: 0 10px;
+    }    
+    /* 이벤트 이미지들 */
+    .event_list {
+        width: 650px;
+        margin: 0 auto;
+    }
+    .event_list > img {
+        padding: 10px;
+    }
+}
+/* 모바일 */
+@media all and (max-width:767px) { 
+    /* 헤더 */
+    .event_wrap h1 {
+        font-size: 3vmax;
+        padding: 30px;
+        margin-left: 5px;
+        padding-bottom: 10px;
+    }
+    /* 버튼 부분 */
+    .event_sort {
+        margin-bottom: 10px;
+        border-top: none;
+        margin-left: -5%;
+    }
+    .event_button {
+        width: 100%;
+        padding: 15px 0px;
+    }
+    .radio_box input[type="radio"] + span{
+        width: 100px;
+        height: 0px;
+        margin: 0 3px;
+        font-size: 12px;
+    }
+    .radio_box input[type="radio"]:checked + span{
+        color: #a31616;
+        border: 2px solid #a31616;
+    }
+    .radio_box i {
+        display: none;
+    }
+    /* 이벤트 이미지들 */
+    .event_list {
+        width: 100%;
+    }
+    .event_list > img {
+        width: 100%;
+        height: 100%;
+        padding: 1px;
+    }
+    
+}
