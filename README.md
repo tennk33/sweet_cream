@@ -1,5 +1,5 @@
 # sweet_cream
-
+## https://tennk33.github.io/sweet_cream/   
 **Sweet Cream은 배스킨라빈스 홈페이지를 참고하여 만든 아이스크림 브랜드 사이트입니다.**   
 **카카오 맵 API와 카카오 이미지 검색 API를 연동하였으며 반응형으로 제작되었습니다.**
 
