@@ -123,6 +123,10 @@ html,body { margin:0; padding:0; width:100%; height:100%;}
     background-color: #c72c2c;
     height: 0px;
     margin-top: -3px;
+
+    /* ie에서 메뉴가 슬라이더 밑으로 깔리는 버그 수정 */
+    position: relative;
+    z-index: 2;
 }
 .toggle_wrap {
     width: 1200px;
