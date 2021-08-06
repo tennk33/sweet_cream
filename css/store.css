@@ -210,9 +210,9 @@ form{
     /* 검색버튼 */
     #menu_wrap .option button {
         margin: 20px;
-        /* margin-left: 220px; */
-        /* margin-top: -35px; */
-        width: 100px;
+        margin-left: 10%;
+        margin-top: 10px;
+        width: 80%;
         height: 40px;
         font-size: 20px;
     }
@@ -221,6 +221,10 @@ form{
         border-bottom: 3px dotted #f3cdcd;
         overflow: hidden;
         min-height: 65px;
+    }
+    /* 검색창 */
+    input#keyword {
+        width: 100%;
     }
     /* 주소 제목부분 */
     #placesList .item h5, #placesList .item .info {
