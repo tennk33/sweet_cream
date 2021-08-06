@@ -87,10 +87,11 @@
 
 /* 미디어쿼리 */
 /* 태블릿 */
-@media all and (max-width:1023px) {
+@media all and (max-width:1024px) {
     /* 헤더부분 */
     .recruit_wrap {
         width: 100%;
+        margin-top: 140px;
     }
     .article_img {
         position: relative;

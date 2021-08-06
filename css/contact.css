@@ -134,11 +134,12 @@
 
 /* 미디어쿼리 */
 /* 태블릿 사이즈 */
-@media all and (max-width:1023px) {
+@media all and (max-width:1024px) {
     /* 헤더부분 */
     .contact_wrap {
         width: 100%;
         margin: 0 auto;
+        margin-top: 140px;
     }
     /* FAQ */
     .contact_article {

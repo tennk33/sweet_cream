@@ -65,15 +65,18 @@
 
 /* 미디어쿼리 */
 /* 태블릿 */
-@media all and (max-width:1023px) {
+@media all and (max-width:1024px) {
     /* 헤더부분 */
     .event_wrap {
         width: 100%;
+        margin-top: 140px;
+
     }
     /* 버튼 부분 */
     .event_sort {
         width: 100%;
         margin: 0 auto;
+        box-sizing: border-box;
     }
     .event_button {
         width: 700px;
@@ -110,7 +113,7 @@
     }
     .event_button {
         width: 100%;
-        padding: 15px 0px;
+        padding: 0px 0px;
     }
     .radio_box input[type="radio"] + span{
         width: 100px;
