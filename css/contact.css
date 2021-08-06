@@ -166,11 +166,11 @@
     /* 헤더부분 */
     .contact_wrap {
         width: 100%;
-        margin: 0 auto;
     }
     .contact_wrap > h1 {
         font-size: 3vmax;
         padding: 30px;
+        margin-left: -10px;
     }
     .faq_question > h1 {
         font-weight: bold;

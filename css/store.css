@@ -236,6 +236,9 @@ form{
     }
 
     /* 사진 */
+    .article h1 {
+        font-size: 10px;
+    }
     .article_wrap img {
         width: 100%;
         height: 100%;
