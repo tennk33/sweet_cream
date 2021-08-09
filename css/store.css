@@ -27,6 +27,10 @@
     z-index: 1;
     font-size:12px;
 }
+.map_wrap * {
+    font-size: 12px;
+    font-weight: bold;
+}
 .bg_white {
     background: white;
 }
