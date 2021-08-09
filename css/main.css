@@ -576,12 +576,12 @@
 @media all and (max-width:767px) {
     .swiper-slide > img {
         width: 100%;
-        height: 500px;
+        height: 300px;
     } 
     /* 이미지 안에 글씨 부분 */
     .slide_text h1 {
-        font-size: 7vmax;
-        padding: 30px;
+        font-size: 6vmax;
+        padding: 20px;
         margin-left: -10%;
     }
     .slide_text p {
