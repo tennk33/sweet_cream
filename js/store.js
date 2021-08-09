@@ -107,6 +107,16 @@ function displayPlaces(places) {
             };
         })(marker, places[i].place_name);
 
+        // 마커 클릭했을때
+        (function(marker, title, addr) {
+            kakao.maps.event.addListener(marker, 'click', function() {
+                displayInfowindow2(marker, title, addr);
+            });
+
+            
+        })
+        (marker, places[i].place_name, places[i].road_address_name);
+
         fragment.appendChild(itemEl);
     }
 
@@ -213,13 +223,20 @@ function displayInfowindow(marker, title) {
     infowindow.open(map, marker);
 }
 
+// 클릭했을때 불러올 함수
+function displayInfowindow2(marker, title, addr) {
+    var content = '<div style="padding:5px;z-index:1;">' + title + '<br>' + '<span style="color:brown">' + addr + '</span>' + '</div>';
+
+    infowindow.setContent(content);
+    infowindow.open(map, marker);
+}
+
  // 검색결과 목록의 자식 Element를 제거하는 함수입니다
 function removeAllChildNods(el) {   
     while (el.hasChildNodes()) {
         el.removeChild (el.lastChild);
     }
 }
-
 
 // alt에러
 $('img').attr('alt', 'image');
